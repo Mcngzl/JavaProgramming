@@ -1,0 +1,37 @@
+Conditional Statements in java
+If condition:
+ - single if condition statements(door:opens only if condition is true)
+ - if ....else..
+ - if.... else if ...else if.... else
+ - nested if ....
+Switch: very similar  multi branch ifs
+
+Ternary Operator:
+ -> variable = condition ? truevalue : falseValue
+
+ =======================================
+ all conditionals work ewith boolean values(true,false)
+   *Comparison opeartors
+   <,>,<=,>=,!=,==
+   * String
+
+
+   =================
+   shortcut for alignment cntrl+alt+L:windows
+===================================
+how can i make a regular directory a source root
+so i can create JAVA files
+marc directory as >source root
+=======================================
+Switch
+it can only perform == equals
+======================================
+DEBUG
+when you have some kind of bug in your code ,you want to find and fix it
+  steps:
+  1.put breakpoint by clicking on the left panel where lune numbers are
+  2.Run as Debug (bug icon)
+  3.your compiler stops the execution at that line
+  4.to move your compiler step by step "click on step over"
+
+  Benefit:you can see the flow of the execution of your codes ,variables and their values

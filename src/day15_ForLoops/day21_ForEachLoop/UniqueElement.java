@@ -1,0 +1,34 @@
+package day15_ForLoops.day21_ForEachLoop;
+
+public class UniqueElement {
+    public static void main(String[] args) {
+        String[] words ={"Layan","Layan","Olexandr","Olga","Adam","Adam","Adam","Cihad","Cihad","Cydeo"};
+
+        for (String each : words) {
+            int count =0;
+            for (String element :words){
+                if (element.equals(each)){
+                    count++;
+                }
+            }
+            if ( count==1){
+                System.out.println(each);
+                }
+
+
+        }
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
