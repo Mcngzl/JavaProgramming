@@ -1,6 +1,7 @@
 package day39_Recap.ShapeTask;
 
 public class Shape {
+
     private String name;
 
     public String getName() {
@@ -36,6 +37,16 @@ public class Shape {
     public double perimeter(){
         return 0;
     }
+
+    @Override
+    public String toString() {
+        return "Shape{" +
+                "name='" + name + '\'' +
+                ", area='" + area() + '\'' +
+                ", perimeter='" + perimeter() + '\'' +
+                '}';
+    }
+
 
 
 }
