@@ -9,14 +9,14 @@ public class Animal {
     private String size;
     private int age;
 
-    public Animal(String breed, char gender, String color, String size, int age) {
+    public Animal(String name, String breed, char gender, String color, String size, int age) {
+        this.name = name;
         this.breed = breed;
         this.gender = gender;
         this.color = color;
         this.size = size;
         this.age = age;
     }
-
 
     public String getName() {
         return name;
@@ -42,6 +42,8 @@ public class Animal {
         return age;
     }
 
+    //------------ setters------------------------
+
     public void setName(String name) {
         this.name = name;
     }
@@ -52,6 +54,16 @@ public class Animal {
 
     public void setAge(int age) {
         this.age = age;
+    }
+//------------------setters----------------------------
+
+
+    public void eat (){
+        System.out.println(name+" is eating");
+    }
+
+    public final void drink(){
+        System.out.println(name+" is drinking");
     }
 
 
