@@ -2,8 +2,8 @@ package day43_Abstraction.employeeTask;
 
 public final class Developer extends Employee{
 
-    public  Developer(String name, int age, char gender, int id, String jobtitle, double slary) {
-        super(name, age, gender, id, jobtitle, slary);
+    public  Developer(String name, int age, char gender, int id, String jobtitle, double salary) {
+        super(name, age, gender, id, jobtitle, salary);
     }
 
     @Override
@@ -16,7 +16,7 @@ public final class Developer extends Employee{
         System.out.println(getName()+" sleeps 6 hours");
     }
 
-    public void unitTest1(){
+    public void unitTest(){
         System.out.println(getName()+" is unit testing");
     }
 

@@ -6,14 +6,14 @@ public abstract class Employee extends Person{
     private String jobtitle;
     private double salary;
 
-    public Employee(String name, int age, char gender, int id, String jobtitle, double slary) {
+    public Employee(String name, int age, char gender, int id, String jobtitle, double salary) {
         super(name, age, gender);
         if (id <=0){
             throw new RuntimeException("Invalid id : "+id);
         }
         this.id = id;
         setJobtitle(jobtitle);
-       setSlary(salary);
+       setSalary(salary);
     }
 
     public int getId() {
@@ -32,8 +32,8 @@ public abstract class Employee extends Person{
         return salary;
     }
 
-    public void setSlary(double slary) {
-        this.salary = slary;
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 
     public abstract void work();
