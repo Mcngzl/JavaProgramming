@@ -1,6 +1,6 @@
 package day43_Abstraction.employeeTask;
 
-public class Tester extends Employee{
+public final class Tester extends Employee{
 
     public Tester(String name, int age, char gender, int id, String jobtitle, double slary) {
         super(name, age, gender, id, jobtitle, slary);
