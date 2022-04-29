@@ -1,6 +1,6 @@
 package day44_Abstraction;
 
-public class dog extends Animal{
+public final class dog extends Animal{
 
 
     public dog(String name, String breed, char gender, int age, String size, String color) {
