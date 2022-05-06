@@ -1,6 +1,8 @@
-package day44_Abstraction;
+package day44_Abstraction.animalTask;
 
-public final class Parrot extends Animal{
+import day44_Abstraction.animalTask.Animal;
+
+public final class Parrot extends Animal implements Playable {
     public Parrot(String name, String breed, char gender, int age, String size, String color) {
         super(name, breed, gender, age, size, color);
     }
@@ -11,5 +13,8 @@ public final class Parrot extends Animal{
     }
 
 
+    @Override
+    public void play() {
 
+    }
 }

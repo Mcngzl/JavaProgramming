@@ -1,6 +1,8 @@
-package day44_Abstraction;
+package day44_Abstraction.animalTask;
 
-public final class Tiger extends Animal {
+import day44_Abstraction.animalTask.Animal;
+
+public final class Tiger extends Animal implements WildAnimal{
     public Tiger(String name, String breed, char gender, int age, String size, String color) {
         super(name, breed, gender, age, size, color);
     }
@@ -11,5 +13,8 @@ public final class Tiger extends Animal {
     }
 
 
-
+    @Override
+    public void hunt() {
+        System.out.println(getName()+" is hunting");
+    }
 }
