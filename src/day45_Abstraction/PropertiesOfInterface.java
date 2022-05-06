@@ -36,4 +36,26 @@ public interface PropertiesOfInterface {
         System.out.println("default method");
     }
 
+
+}
+
+class Test implements PropertiesOfInterface {
+
+    @Override
+    public void method3() {
+
+    }
+
+
+    @Override
+    public void method4() {
+        PropertiesOfInterface.super.method4();
+    }
+
+    public static void main(String[] args) {
+
+        new Test().method4();
+    }
+
+
 }
